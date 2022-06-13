@@ -1,0 +1,28 @@
+Para converter: 
+
+toString();
+
+Ex: currentYear = "2022"
+currentYear.toInt() 
+println(currentYear)
+
+Declarar Variáveis: 
+
+var - Pode ter seu valor alterado (camelCase)
+var currentAge:Int? (?: para receber, no caso, INT ou NULL)
+
+Ex: var currentAge = 29
+
+val - Valor não pode ser alterado (camelCase)
+val currentAge:Int?
+
+Ex: val currentAge = 29
+
+const val - Criar uma constante em uma compilação (SNAKE_CASE)
+
+Ex: const val MIN_AGE = 18  
+
+Operações:
+
+Soma concatena Strings 
+
