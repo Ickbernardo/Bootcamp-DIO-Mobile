@@ -1,4 +1,4 @@
-Para converter: 
+- Para converter: 
 
 toString();
 
@@ -6,7 +6,7 @@ Ex: currentYear = "2022"
 currentYear.toInt() 
 println(currentYear)
 
-Declarar Variáveis: 
+- Declarar Variáveis: 
 
 var - Pode ter seu valor alterado (camelCase)
 var currentAge:Int? (?: para receber, no caso, INT ou NULL)
@@ -22,7 +22,62 @@ const val - Criar uma constante em uma compilação (SNAKE_CASE)
 
 Ex: const val MIN_AGE = 18  
 
-Operações:
+- Operações:
 
 Soma concatena Strings 
+
+- Comparadores
+
+a.compareTo(b): Informa -1, 0 ou 1 respectivamente - Menor que, igual e Maior que
+
+Lógicos
+
+E, OU: as verificações devem ser escritas entre parênteses 
+
+Ex: E - (a) && (b), (a) and (b)
+
+OU - (a) or (b)
+
+- IN e Range (Operadores):
+
+in: contém
+!in: não contém
+
+range: cria numeros aleatórios em um intervalo
+
+Ex: (10..100)
+
+- Manipulação de Strings:
+
+first()
+last()
+
+string.length
+
+- Concatenação
+
+${} mesma função que "+" mas com estrutura pré-definida
+
+Ex:
+
+var hi = "oi"
+var howAreYou?= "tudo bem?"
+
+println(${hi}, ${howAreYou?})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
