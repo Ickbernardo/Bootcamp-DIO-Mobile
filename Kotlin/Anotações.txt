@@ -65,6 +65,30 @@ var howAreYou?= "tudo bem?"
 
 println(${hi}, ${howAreYou?})
 
+- Empty x Blank
+
+Empty somente quando STRING.length = 0
+
+- Funções
+
+fun nomeDaFunçao(nome:Tipo):TipoRetorno{}
+
+- Estruturas de controle
+
+if/else/when/elvis
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
